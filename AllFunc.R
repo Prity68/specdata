@@ -1,3 +1,4 @@
+#All assignments R programming course
 pollutantmean<-function(directory,pollutant,id){
   setwd(directory)
   files <- list.files(path = getwd(), pattern = "*.csv", full.names = T)
